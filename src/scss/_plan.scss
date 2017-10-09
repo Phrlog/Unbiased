@@ -11,6 +11,10 @@
 }
 .plan--right {
   box-shadow: 12px 13px 49px -4px rgba(0,0,0,0.15);
+
+  .plan__choose-button {
+    text-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  }
 }
 
 .plan--left, .plan--right {
