@@ -92,6 +92,7 @@
   border: 2px solid $orange;
   min-height: 600px;
   position: relative;
+  box-shadow: 0 11px 50px rgba(0, 0, 0, 0.15);
 
   .plan__title {
     color: $orange;
