@@ -3,25 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build-task:scss-compile": "node-sass-chokidar --source-map true src/scss/ -o dist/css",
-    "build-task:autoprefixer": "postcss dist/css/*.css --use autoprefixer -d dist/css",
-    "sass:build": "npm-run-all -p build-task:*",
-    "sass:watch": "chokidar 'src/scss/*.scss' -c 'npm run sass:build'",
-    "dev": "npm-run-all -p sass:*"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^7.1.5",
-    "chokidar-cli": "^1.2.0",
-    "node-sass-chokidar": "0.0.3",
-    "normalize.css": "^7.0.0",
-    "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1"
+    "normalize.css": "^7.0.0"
   },
   "devDependencies": {
-    "font-awesome": "^4.7.0"
+    "browser-sync": "^2.18.13",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-minify-css": "~0.3.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "~2.2.14"
   }
 }
