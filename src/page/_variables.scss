@@ -1,0 +1,25 @@
+$orange: #f26522;
+$bright-orange: #f16020;
+$light-green: #87a6ad;
+
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+@font-face {
+  font-family: LatoRegular;
+  src: url(/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url(/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+  font-family: GalanoBold;
+  src: url(/fonts/GalanoBold.otf);
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url(/fonts/MyriadPro.otf);
+}
