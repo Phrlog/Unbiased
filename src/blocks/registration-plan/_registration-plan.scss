@@ -1,0 +1,11 @@
+.registration-plan {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  font-family: MyriadPro;
+}
+.registration-plan__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
